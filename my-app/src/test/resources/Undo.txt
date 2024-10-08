@@ -1,0 +1,7 @@
+S0:{on(A,T), on(B,T), clear(A), clear(B)}
+
+ACT: stack(A,B)
+PRE: on(A,T), on(B,T), clear(A), clear(B)
+EFF: on(A,B), !clear(B), !on(A,T)
+
+Sz:{on(A,T),on(B,A),on(A,B)}

@@ -1,0 +1,121 @@
+{
+  "predicates": [
+    [
+      "P1",
+      {
+        "result": "test(A)",
+        "resultClass": "valid",
+        "id": "P1",
+        "name": "test",
+        "nameClass": "valid",
+        "negation": false,
+        "numArgs": "1",
+        "numArgsClass": "valid",
+        "args": [
+          "A"
+        ],
+        "argsClass": [
+          "valid"
+        ],
+        "kind": [
+          "literal"
+        ],
+        "literal": [
+          "literal"
+        ],
+        "variable": [
+          ""
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ]
+  ],
+  "actions": [
+    [
+      "A1",
+      {
+        "result": "DREIUNDZWANZIG()",
+        "resultPre": "{}",
+        "resultEff": "{test(A)}",
+        "id": "A1",
+        "name": "DREIUNDZWANZIG",
+        "nameClass": "valid",
+        "priority": "23",
+        "priorityClass": "valid",
+        "numPre": "0",
+        "numPreClass": "valid",
+        "numEff": "1",
+        "numEffClass": "valid",
+        "pre": [],
+        "preClass": [],
+        "eff": [
+          "P1"
+        ],
+        "effClass": [
+          "valid"
+        ],
+        "valid": true,
+        "validStatus": "OK"
+      }
+    ],
+    [
+      "A2",
+      {
+        "result": "ZWANZIG()",
+        "resultPre": "{}",
+        "resultEff": "{test(A)}",
+        "id": "A2",
+        "name": "ZWANZIG",
+        "nameClass": "valid",
+        "priority": "20",
+        "priorityClass": "valid",
+        "numPre": "0",
+        "numPreClass": "valid",
+        "numEff": "1",
+        "numEffClass": "valid",
+        "pre": [],
+        "preClass": [],
+        "eff": [
+          "P1"
+        ],
+        "effClass": [
+          "valid"
+        ],
+        "valid": true,
+        "validStatus": "OK"
+      }
+    ],
+    [
+      "A3",
+      {
+        "result": "FUENFZWANZIG()",
+        "resultPre": "{}",
+        "resultEff": "{test(A)}",
+        "id": "A3",
+        "name": "FUENFZWANZIG",
+        "nameClass": "valid",
+        "priority": "25",
+        "priorityClass": "valid",
+        "numPre": "0",
+        "numPreClass": "valid",
+        "numEff": "1",
+        "numEffClass": "valid",
+        "pre": [],
+        "preClass": [],
+        "eff": [
+          "P1"
+        ],
+        "effClass": [
+          "valid"
+        ],
+        "valid": true,
+        "validStatus": "OK"
+      }
+    ]
+  ],
+  "start": [],
+  "end": [
+    "P1"
+  ]
+}

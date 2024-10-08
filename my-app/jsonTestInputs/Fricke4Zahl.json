@@ -1,0 +1,1007 @@
+{
+    "predicates": [
+      [
+        "P1",
+        {
+          "result": "hoehe(0)",
+          "resultClass": "valid",
+          "id": "P1",
+          "name": "hoehe",
+          "nameClass": "valid",
+          "negation": false,
+          "numArgs": "1",
+          "numArgsClass": "valid",
+          "args": [
+            "0"
+          ],
+          "argsClass": [
+            "valid"
+          ],
+          "kind": [
+            "literal"
+          ],
+          "literal": [
+            "literal"
+          ],
+          "variable": [
+            ""
+          ],
+          "valid": true,
+          "validStatus": ""
+        }
+      ],
+      [
+        "P2",
+        {
+          "result": "v(1)",
+          "resultClass": "valid",
+          "id": "P2",
+          "name": "v",
+          "nameClass": "valid",
+          "negation": false,
+          "numArgs": "1",
+          "numArgsClass": "valid",
+          "args": [
+            "1"
+          ],
+          "argsClass": [
+            "valid"
+          ],
+          "kind": [
+            "literal"
+          ],
+          "literal": [
+            "literal"
+          ],
+          "variable": [
+            ""
+          ],
+          "valid": true,
+          "validStatus": ""
+        }
+      ],
+      [
+        "P3",
+        {
+          "result": "groesse(1, 1)",
+          "resultClass": "valid",
+          "id": "P3",
+          "name": "groesse",
+          "nameClass": "valid",
+          "negation": false,
+          "numArgs": "2",
+          "numArgsClass": "valid",
+          "args": [
+            "1",
+            "1"
+          ],
+          "argsClass": [
+            "valid",
+            "valid"
+          ],
+          "kind": [
+            "literal",
+            "literal"
+          ],
+          "literal": [
+            "literal",
+            "literal"
+          ],
+          "variable": [
+            "",
+            ""
+          ],
+          "valid": true,
+          "validStatus": ""
+        }
+      ],
+      [
+        "P4",
+        {
+          "result": "farbe(1, 5)",
+          "resultClass": "valid",
+          "id": "P4",
+          "name": "farbe",
+          "nameClass": "valid",
+          "negation": false,
+          "numArgs": "2",
+          "numArgsClass": "valid",
+          "args": [
+            "1",
+            "5"
+          ],
+          "argsClass": [
+            "valid",
+            "valid"
+          ],
+          "kind": [
+            "literal",
+            "literal"
+          ],
+          "literal": [
+            "literal",
+            "literal"
+          ],
+          "variable": [
+            "",
+            ""
+          ],
+          "valid": true,
+          "validStatus": ""
+        }
+      ],
+      [
+        "P5",
+        {
+          "result": "block(2)",
+          "resultClass": "valid",
+          "id": "P5",
+          "name": "block",
+          "nameClass": "valid",
+          "negation": false,
+          "numArgs": "1",
+          "numArgsClass": "valid",
+          "args": [
+            "2"
+          ],
+          "argsClass": [
+            "valid"
+          ],
+          "kind": [
+            "literal"
+          ],
+          "literal": [
+            "literal"
+          ],
+          "variable": [
+            ""
+          ],
+          "valid": true,
+          "validStatus": ""
+        }
+      ],
+      [
+        "P6",
+        {
+          "result": "groesse(2, 1)",
+          "resultClass": "valid",
+          "id": "P6",
+          "name": "groesse",
+          "nameClass": "valid",
+          "negation": false,
+          "numArgs": "2",
+          "numArgsClass": "valid",
+          "args": [
+            "2",
+            "1"
+          ],
+          "argsClass": [
+            "valid",
+            "valid"
+          ],
+          "kind": [
+            "literal",
+            "literal"
+          ],
+          "literal": [
+            "literal",
+            "literal"
+          ],
+          "variable": [
+            "",
+            ""
+          ],
+          "valid": true,
+          "validStatus": ""
+        }
+      ],
+      [
+        "P7",
+        {
+          "result": "farbe(2, 5)",
+          "resultClass": "valid",
+          "id": "P7",
+          "name": "farbe",
+          "nameClass": "valid",
+          "negation": false,
+          "numArgs": "2",
+          "numArgsClass": "valid",
+          "args": [
+            "2",
+            "5"
+          ],
+          "argsClass": [
+            "valid",
+            "valid"
+          ],
+          "kind": [
+            "literal",
+            "literal"
+          ],
+          "literal": [
+            "literal",
+            "literal"
+          ],
+          "variable": [
+            "",
+            ""
+          ],
+          "valid": true,
+          "validStatus": ""
+        }
+      ],
+      [
+        "P8",
+        {
+          "result": "ge(1, 2)",
+          "resultClass": "valid",
+          "id": "P8",
+          "name": "ge",
+          "nameClass": "valid",
+          "negation": false,
+          "numArgs": "2",
+          "numArgsClass": "valid",
+          "args": [
+            "1",
+            "2"
+          ],
+          "argsClass": [
+            "valid",
+            "valid"
+          ],
+          "kind": [
+            "literal",
+            "literal"
+          ],
+          "literal": [
+            "literal",
+            "literal"
+          ],
+          "variable": [
+            "",
+            ""
+          ],
+          "valid": true,
+          "validStatus": ""
+        }
+      ],
+      [
+        "P9",
+        {
+          "result": "n(1, 2)",
+          "resultClass": "valid",
+          "id": "P9",
+          "name": "n",
+          "nameClass": "valid",
+          "negation": false,
+          "numArgs": "2",
+          "numArgsClass": "valid",
+          "args": [
+            "1",
+            "2"
+          ],
+          "argsClass": [
+            "valid",
+            "valid"
+          ],
+          "kind": [
+            "literal",
+            "literal"
+          ],
+          "literal": [
+            "literal",
+            "literal"
+          ],
+          "variable": [
+            "",
+            ""
+          ],
+          "valid": true,
+          "validStatus": ""
+        }
+      ],
+      [
+        "P10",
+        {
+          "result": "v(7)",
+          "resultClass": "valid",
+          "id": "P10",
+          "name": "v",
+          "nameClass": "valid",
+          "negation": false,
+          "numArgs": "1",
+          "numArgsClass": "valid",
+          "args": [
+            "7"
+          ],
+          "argsClass": [
+            "valid"
+          ],
+          "kind": [
+            "literal"
+          ],
+          "literal": [
+            "literal"
+          ],
+          "variable": [
+            ""
+          ],
+          "valid": true,
+          "validStatus": ""
+        }
+      ],
+      [
+        "P11",
+        {
+          "result": "dach(7)",
+          "resultClass": "valid",
+          "id": "P11",
+          "name": "dach",
+          "nameClass": "valid",
+          "negation": false,
+          "numArgs": "1",
+          "numArgsClass": "valid",
+          "args": [
+            "7"
+          ],
+          "argsClass": [
+            "valid"
+          ],
+          "kind": [
+            "literal"
+          ],
+          "literal": [
+            "literal"
+          ],
+          "variable": [
+            ""
+          ],
+          "valid": true,
+          "validStatus": ""
+        }
+      ],
+      [
+        "P12",
+        {
+          "result": "groesse(7, 1)",
+          "resultClass": "valid",
+          "id": "P12",
+          "name": "groesse",
+          "nameClass": "valid",
+          "negation": false,
+          "numArgs": "2",
+          "numArgsClass": "valid",
+          "args": [
+            "7",
+            "1"
+          ],
+          "argsClass": [
+            "valid",
+            "valid"
+          ],
+          "kind": [
+            "literal",
+            "literal"
+          ],
+          "literal": [
+            "literal",
+            "literal"
+          ],
+          "variable": [
+            "",
+            ""
+          ],
+          "valid": true,
+          "validStatus": ""
+        }
+      ],
+      [
+        "P13",
+        {
+          "result": "n(2, 3)",
+          "resultClass": "valid",
+          "id": "P13",
+          "name": "n",
+          "nameClass": "valid",
+          "negation": false,
+          "numArgs": "2",
+          "numArgsClass": "valid",
+          "args": [
+            "2",
+            "3"
+          ],
+          "argsClass": [
+            "valid",
+            "valid"
+          ],
+          "kind": [
+            "literal",
+            "literal"
+          ],
+          "literal": [
+            "literal",
+            "literal"
+          ],
+          "variable": [
+            "",
+            ""
+          ],
+          "valid": true,
+          "validStatus": ""
+        }
+      ],
+      [
+        "P14",
+        {
+          "result": "hoehe(1)",
+          "resultClass": "valid",
+          "id": "P14",
+          "name": "hoehe",
+          "nameClass": "valid",
+          "negation": false,
+          "numArgs": "1",
+          "numArgsClass": "valid",
+          "args": [
+            "1"
+          ],
+          "argsClass": [
+            "valid"
+          ],
+          "kind": [
+            "literal"
+          ],
+          "literal": [
+            "literal"
+          ],
+          "variable": [
+            ""
+          ],
+          "valid": true,
+          "validStatus": ""
+        }
+      ],
+      [
+        "P15",
+        {
+          "result": "etage(1, 1)",
+          "resultClass": "valid",
+          "id": "P15",
+          "name": "etage",
+          "nameClass": "valid",
+          "negation": false,
+          "numArgs": "2",
+          "numArgsClass": "valid",
+          "args": [
+            "1",
+            "1"
+          ],
+          "argsClass": [
+            "valid",
+            "valid"
+          ],
+          "kind": [
+            "literal",
+            "literal"
+          ],
+          "literal": [
+            "literal",
+            "literal"
+          ],
+          "variable": [
+            "",
+            ""
+          ],
+          "valid": true,
+          "validStatus": ""
+        }
+      ],
+      [
+        "P16",
+        {
+          "result": "v(2)",
+          "resultClass": "valid",
+          "id": "P16",
+          "name": "v",
+          "nameClass": "valid",
+          "negation": false,
+          "numArgs": "1",
+          "numArgsClass": "valid",
+          "args": [
+            "2"
+          ],
+          "argsClass": [
+            "valid"
+          ],
+          "kind": [
+            "literal"
+          ],
+          "literal": [
+            "literal"
+          ],
+          "variable": [
+            ""
+          ],
+          "valid": true,
+          "validStatus": ""
+        }
+      ],
+      [
+        "P17",
+        {
+          "result": "v(1)",
+          "resultClass": "valid",
+          "id": "P17",
+          "name": "v",
+          "nameClass": "valid",
+          "negation": true,
+          "numArgs": "1",
+          "numArgsClass": "valid",
+          "args": [
+            "1"
+          ],
+          "argsClass": [
+            "valid"
+          ],
+          "kind": [
+            "literal"
+          ],
+          "literal": [
+            "literal"
+          ],
+          "variable": [
+            ""
+          ],
+          "valid": true,
+          "validStatus": ""
+        }
+      ],
+      [
+        "P18",
+        {
+          "result": "hoehe(0)",
+          "resultClass": "valid",
+          "id": "P18",
+          "name": "hoehe",
+          "nameClass": "valid",
+          "negation": true,
+          "numArgs": "1",
+          "numArgsClass": "valid",
+          "args": [
+            "0"
+          ],
+          "argsClass": [
+            "valid"
+          ],
+          "kind": [
+            "literal"
+          ],
+          "literal": [
+            "literal"
+          ],
+          "variable": [
+            ""
+          ],
+          "valid": true,
+          "validStatus": ""
+        }
+      ],
+      [
+        "P19",
+        {
+          "result": "hoehe(2)",
+          "resultClass": "valid",
+          "id": "P19",
+          "name": "hoehe",
+          "nameClass": "valid",
+          "negation": false,
+          "numArgs": "1",
+          "numArgsClass": "valid",
+          "args": [
+            "2"
+          ],
+          "argsClass": [
+            "valid"
+          ],
+          "kind": [
+            "literal"
+          ],
+          "literal": [
+            "literal"
+          ],
+          "variable": [
+            ""
+          ],
+          "valid": true,
+          "validStatus": ""
+        }
+      ],
+      [
+        "P20",
+        {
+          "result": "etage(2, 2)",
+          "resultClass": "valid",
+          "id": "P20",
+          "name": "etage",
+          "nameClass": "valid",
+          "negation": false,
+          "numArgs": "2",
+          "numArgsClass": "valid",
+          "args": [
+            "2",
+            "2"
+          ],
+          "argsClass": [
+            "valid",
+            "valid"
+          ],
+          "kind": [
+            "literal",
+            "literal"
+          ],
+          "literal": [
+            "literal",
+            "literal"
+          ],
+          "variable": [
+            "",
+            ""
+          ],
+          "valid": true,
+          "validStatus": ""
+        }
+      ],
+      [
+        "P21",
+        {
+          "result": "hoehe(1)",
+          "resultClass": "valid",
+          "id": "P21",
+          "name": "hoehe",
+          "nameClass": "valid",
+          "negation": true,
+          "numArgs": "1",
+          "numArgsClass": "valid",
+          "args": [
+            "1"
+          ],
+          "argsClass": [
+            "valid"
+          ],
+          "kind": [
+            "literal"
+          ],
+          "literal": [
+            "literal"
+          ],
+          "variable": [
+            ""
+          ],
+          "valid": true,
+          "validStatus": ""
+        }
+      ],
+      [
+        "P22",
+        {
+          "result": "hoehe(3)",
+          "resultClass": "valid",
+          "id": "P22",
+          "name": "hoehe",
+          "nameClass": "valid",
+          "negation": false,
+          "numArgs": "1",
+          "numArgsClass": "valid",
+          "args": [
+            "3"
+          ],
+          "argsClass": [
+            "valid"
+          ],
+          "kind": [
+            "literal"
+          ],
+          "literal": [
+            "literal"
+          ],
+          "variable": [
+            ""
+          ],
+          "valid": true,
+          "validStatus": ""
+        }
+      ],
+      [
+        "P23",
+        {
+          "result": "etage(3, 7)",
+          "resultClass": "valid",
+          "id": "P23",
+          "name": "etage",
+          "nameClass": "valid",
+          "negation": false,
+          "numArgs": "2",
+          "numArgsClass": "valid",
+          "args": [
+            "3",
+            "7"
+          ],
+          "argsClass": [
+            "valid",
+            "valid"
+          ],
+          "kind": [
+            "literal",
+            "literal"
+          ],
+          "literal": [
+            "literal",
+            "literal"
+          ],
+          "variable": [
+            "",
+            ""
+          ],
+          "valid": true,
+          "validStatus": ""
+        }
+      ],
+      [
+        "P24",
+        {
+          "result": "hoehe(2)",
+          "resultClass": "valid",
+          "id": "P24",
+          "name": "hoehe",
+          "nameClass": "valid",
+          "negation": true,
+          "numArgs": "1",
+          "numArgsClass": "valid",
+          "args": [
+            "2"
+          ],
+          "argsClass": [
+            "valid"
+          ],
+          "kind": [
+            "literal"
+          ],
+          "literal": [
+            "literal"
+          ],
+          "variable": [
+            ""
+          ],
+          "valid": true,
+          "validStatus": ""
+        }
+      ],
+      [
+        "P25",
+        {
+          "result": "v(7)",
+          "resultClass": "valid",
+          "id": "P25",
+          "name": "v",
+          "nameClass": "valid",
+          "negation": true,
+          "numArgs": "1",
+          "numArgsClass": "valid",
+          "args": [
+            "7"
+          ],
+          "argsClass": [
+            "valid"
+          ],
+          "kind": [
+            "literal"
+          ],
+          "literal": [
+            "literal"
+          ],
+          "variable": [
+            ""
+          ],
+          "valid": true,
+          "validStatus": ""
+        }
+      ],
+      [
+        "P26",
+        {
+          "result": "v(2)",
+          "resultClass": "valid",
+          "id": "P26",
+          "name": "v",
+          "nameClass": "valid",
+          "negation": true,
+          "numArgs": "1",
+          "numArgsClass": "valid",
+          "args": [
+            "2"
+          ],
+          "argsClass": [
+            "valid"
+          ],
+          "kind": [
+            "literal"
+          ],
+          "literal": [
+            "literal"
+          ],
+          "variable": [
+            ""
+          ],
+          "valid": true,
+          "validStatus": ""
+        }
+      ]
+    ],
+    "actions": [
+      [
+        "A1",
+        {
+          "result": "stackb()",
+          "resultPre": "{groesse(1, 1), farbe(1, 5), block(2), groesse(2, 1), farbe(2, 5), ge(1, 2), n(1, 2), hoehe(1), etage(1, 1), v(2)}",
+          "resultEff": "{hoehe(2), etage(2, 2), !hoehe(1), !v(2)}",
+          "id": "A1",
+          "name": "stackb",
+          "nameClass": "valid",
+          "priority": "0",
+          "priorityClass": "valid",
+          "numPre": "10",
+          "numPreClass": "valid",
+          "numEff": "4",
+          "numEffClass": "valid",
+          "pre": [
+            "P3",
+            "P4",
+            "P5",
+            "P6",
+            "P7",
+            "P8",
+            "P9",
+            "P14",
+            "P15",
+            "P16"
+          ],
+          "preClass": [
+            "valid",
+            "valid",
+            "valid",
+            "valid",
+            "valid",
+            "valid",
+            "valid",
+            "valid",
+            "valid",
+            "valid"
+          ],
+          "eff": [
+            "P19",
+            "P20",
+            "P21",
+            "P26"
+          ],
+          "effClass": [
+            "valid",
+            "valid",
+            "valid",
+            "valid"
+          ],
+          "valid": true,
+          "validStatus": "OK"
+        }
+      ],
+      [
+        "A2",
+        {
+          "result": "stack0()",
+          "resultPre": "{hoehe(0), v(1)}",
+          "resultEff": "{hoehe(1), etage(1, 1), !v(1), !hoehe(0)}",
+          "id": "A2",
+          "name": "stack0",
+          "nameClass": "valid",
+          "priority": "0",
+          "priorityClass": "valid",
+          "numPre": "2",
+          "numPreClass": "valid",
+          "numEff": "4",
+          "numEffClass": "valid",
+          "pre": [
+            "P1",
+            "P2"
+          ],
+          "preClass": [
+            "valid",
+            "valid"
+          ],
+          "eff": [
+            "P14",
+            "P15",
+            "P17",
+            "P18"
+          ],
+          "effClass": [
+            "valid",
+            "valid",
+            "valid",
+            "valid"
+          ],
+          "valid": true,
+          "validStatus": "OK"
+        }
+      ],
+      [
+        "A3",
+        {
+          "result": "stackd()",
+          "resultPre": "{block(2), v(7), dach(7), groesse(7, 1), groesse(2, 1), n(2, 3), hoehe(2), etage(2, 2)}",
+          "resultEff": "{hoehe(3), etage(3, 7), !hoehe(2), !v(7)}",
+          "id": "A3",
+          "name": "stackd",
+          "nameClass": "valid",
+          "priority": "0",
+          "priorityClass": "valid",
+          "numPre": "8",
+          "numPreClass": "valid",
+          "numEff": "4",
+          "numEffClass": "valid",
+          "pre": [
+            "P5",
+            "P10",
+            "P11",
+            "P12",
+            "P6",
+            "P13",
+            "P19",
+            "P20"
+          ],
+          "preClass": [
+            "valid",
+            "valid",
+            "valid",
+            "valid",
+            "valid",
+            "valid",
+            "valid",
+            "valid"
+          ],
+          "eff": [
+            "P22",
+            "P23",
+            "P24",
+            "P25"
+          ],
+          "effClass": [
+            "valid",
+            "valid",
+            "valid",
+            "valid"
+          ],
+          "valid": true,
+          "validStatus": "OK"
+        }
+      ]
+    ],
+    "start": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8",
+      "P9",
+      "P10",
+      "P11",
+      "P12",
+      "P13",
+      "P16"
+    ],
+    "end": [
+      "P11",
+      "P22",
+      "P23"
+    ]
+  }

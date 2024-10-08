@@ -1,0 +1,139 @@
+{
+  "predicates": [
+    [
+      "P1",
+      {
+        "result": "name(A)",
+        "resultClass": "valid",
+        "id": "P1",
+        "name": "name",
+        "nameClass": "valid",
+        "negation": false,
+        "numArgs": "1",
+        "numArgsClass": "valid",
+        "args": [
+          "A"
+        ],
+        "argsClass": [
+          "valid"
+        ],
+        "kind": [
+          "literal"
+        ],
+        "literal": [
+          "literal"
+        ],
+        "variable": [
+          ""
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ],
+    [
+      "P2",
+      {
+        "result": "name(B)",
+        "resultClass": "valid",
+        "id": "P2",
+        "name": "name",
+        "nameClass": "valid",
+        "negation": false,
+        "numArgs": "1",
+        "numArgsClass": "valid",
+        "args": [
+          "B"
+        ],
+        "argsClass": [
+          "valid"
+        ],
+        "kind": [
+          "literal"
+        ],
+        "literal": [
+          "literal"
+        ],
+        "variable": [
+          ""
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ],
+    [
+      "P3",
+      {
+        "result": "name(C)",
+        "resultClass": "valid",
+        "id": "P3",
+        "name": "name",
+        "nameClass": "valid",
+        "negation": false,
+        "numArgs": "1",
+        "numArgsClass": "valid",
+        "args": [
+          "C"
+        ],
+        "argsClass": [
+          "valid"
+        ],
+        "kind": [
+          "literal"
+        ],
+        "literal": [
+          "literal"
+        ],
+        "variable": [
+          ""
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ]
+  ],
+  "actions": [
+    [
+      "A1",
+      {
+        "result": "name()",
+        "resultPre": "{name(A), name(B)}",
+        "resultEff": "{name(B), name(C)}",
+        "id": "A1",
+        "name": "name",
+        "nameClass": "valid",
+        "priority": "0",
+        "priorityClass": "valid",
+        "numPre": "2",
+        "numPreClass": "valid",
+        "numEff": "2",
+        "numEffClass": "valid",
+        "pre": [
+          "P1",
+          "P2"
+        ],
+        "preClass": [
+          "valid",
+          "valid"
+        ],
+        "eff": [
+          "P2",
+          "P3"
+        ],
+        "effClass": [
+          "valid",
+          "valid"
+        ],
+        "valid": true,
+        "validStatus": "OK"
+      }
+    ]
+  ],
+  "start": [
+    "P1",
+    "P2"
+  ],
+  "end": [
+    "P2",
+    "P3"
+  ]
+}

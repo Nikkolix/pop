@@ -1,0 +1,128 @@
+{
+  "predicates": [
+    [
+      "P1",
+      {
+        "result": "licht(A)",
+        "resultClass": "valid",
+        "id": "P1",
+        "name": "licht",
+        "nameClass": "valid",
+        "negation": false,
+        "numArgs": "1",
+        "numArgsClass": "valid",
+        "args": [
+          "A"
+        ],
+        "argsClass": [
+          "valid"
+        ],
+        "kind": [
+          "literal"
+        ],
+        "literal": [
+          "literal"
+        ],
+        "variable": [
+          ""
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ],
+    [
+      "P2",
+      {
+        "result": "name(Arg)",
+        "resultClass": "valid",
+        "id": "P2",
+        "name": "name",
+        "nameClass": "valid",
+        "negation": false,
+        "numArgs": "1",
+        "numArgsClass": "valid",
+        "args": [
+          "Arg"
+        ],
+        "argsClass": [
+          "valid"
+        ],
+        "kind": [
+          "literal"
+        ],
+        "literal": [
+          "literal"
+        ],
+        "variable": [
+          ""
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ],
+    [
+      "P3",
+      {
+        "result": "kuchen(Schokolade)",
+        "resultClass": "valid",
+        "id": "P3",
+        "name": "kuchen",
+        "nameClass": "valid",
+        "negation": false,
+        "numArgs": "1",
+        "numArgsClass": "valid",
+        "args": [
+          "Schokolade"
+        ],
+        "argsClass": [
+          "valid"
+        ],
+        "kind": [
+          "literal"
+        ],
+        "literal": [
+          "literal"
+        ],
+        "variable": [
+          ""
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ]
+  ],
+  "actions": [
+    [
+      "A1",
+      {
+        "result": "anschalten()",
+        "resultPre": "{}",
+        "resultEff": "{licht(A)}",
+        "id": "A1",
+        "name": "anschalten",
+        "nameClass": "valid",
+        "priority": "0",
+        "priorityClass": "valid",
+        "numPre": "0",
+        "numPreClass": "valid",
+        "numEff": "1",
+        "numEffClass": "valid",
+        "pre": [],
+        "preClass": [],
+        "eff": [
+          "P1"
+        ],
+        "effClass": [
+          "valid"
+        ],
+        "valid": true,
+        "validStatus": "OK"
+      }
+    ]
+  ],
+  "start": [],
+  "end": [
+    "P1",
+    "P3"
+  ]
+}

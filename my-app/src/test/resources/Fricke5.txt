@@ -1,0 +1,11 @@
+S0 :{F(S,W), F(S,P), F(F,B), O(Z)}
+
+ACT:g(o1, o2)
+PRE: O(o1)
+EFF: O(o2), !O(o1)
+
+ACT:k(p, o)
+PRE: O(o), F(o, p)
+EFF: G(p)
+
+Sz:{G(P), G(W), G(B), O(Z)}

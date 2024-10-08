@@ -1,0 +1,15 @@
+S0:{block(1), block(2), block(3), block(4), block(5), block(6), dach(7), dach(8), dach(9),  größe(1,1), größe(2,1), größe(3,2),größe(4,1), größe(5,1), größe(6,2), größe(7,1), größe(8,1), größe(9,2), farbe(1,S), farbe(2,S), farbe(3,S), farbe(4,S), farbe(5,S), farbe(6,W), farbe(S), farbe(G), farbe(W), größe(1), größe(2), n(0,1), n(1,2), n(2,3), höhe(0), ge(1,1), ge(2,1), ge(2,2), v(1),v(2), v(3), v(4), v(5), v(6), v(7), v(8), v(9)}
+
+ACT: stack0(x)		
+PRE: 	höhe(0), v(x)
+EFF: 	höhe(1), etage(1,x),  !v(x), !höhe(0)
+
+ACT: stackb(x)
+PRE:	 höhe(h), etage(h,b), v(x), größe(b,g), farbe(b,f), block(x), größe(x,gx), farbe(x,f), ge(g,gx), n(h,h1)
+EFF: 	 höhe(h1), etage(h1,x), !höhe(h), !v(x)
+
+ACT: stackd(x)
+PRE: 	höhe(h), etage(h,b), block(b), v(x), dach(x), größe(x,g), größe(b,g), n(h,h1)
+EFF:	höhe(h1), etage(h1,x), !höhe(h), !v(x)
+
+Sz:{etage(1,x),etage(2,y),etage(3,z),dach(z)}

@@ -1,0 +1,832 @@
+{
+  "predicates": [
+    [
+      "P1",
+      {
+        "result": "c(A)",
+        "resultClass": "valid",
+        "id": "P1",
+        "name": "c",
+        "nameClass": "valid",
+        "negation": false,
+        "numArgs": "1",
+        "numArgsClass": "valid",
+        "args": [
+          "A"
+        ],
+        "argsClass": [
+          "valid"
+        ],
+        "kind": [
+          "literal"
+        ],
+        "literal": [
+          "literal"
+        ],
+        "variable": [
+          ""
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ],
+    [
+      "P2",
+      {
+        "result": "c(B)",
+        "resultClass": "valid",
+        "id": "P2",
+        "name": "c",
+        "nameClass": "valid",
+        "negation": false,
+        "numArgs": "1",
+        "numArgsClass": "valid",
+        "args": [
+          "B"
+        ],
+        "argsClass": [
+          "valid"
+        ],
+        "kind": [
+          "literal"
+        ],
+        "literal": [
+          "literal"
+        ],
+        "variable": [
+          ""
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ],
+    [
+      "P3",
+      {
+        "result": "c(C)",
+        "resultClass": "valid",
+        "id": "P3",
+        "name": "c",
+        "nameClass": "valid",
+        "negation": false,
+        "numArgs": "1",
+        "numArgsClass": "valid",
+        "args": [
+          "C"
+        ],
+        "argsClass": [
+          "valid"
+        ],
+        "kind": [
+          "literal"
+        ],
+        "literal": [
+          "literal"
+        ],
+        "variable": [
+          ""
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ],
+    [
+      "P4",
+      {
+        "result": "c(D)",
+        "resultClass": "valid",
+        "id": "P4",
+        "name": "c",
+        "nameClass": "valid",
+        "negation": false,
+        "numArgs": "1",
+        "numArgsClass": "valid",
+        "args": [
+          "D"
+        ],
+        "argsClass": [
+          "valid"
+        ],
+        "kind": [
+          "literal"
+        ],
+        "literal": [
+          "literal"
+        ],
+        "variable": [
+          ""
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ],
+    [
+      "P5",
+      {
+        "result": "c(E)",
+        "resultClass": "valid",
+        "id": "P5",
+        "name": "c",
+        "nameClass": "valid",
+        "negation": false,
+        "numArgs": "1",
+        "numArgsClass": "valid",
+        "args": [
+          "E"
+        ],
+        "argsClass": [
+          "valid"
+        ],
+        "kind": [
+          "literal"
+        ],
+        "literal": [
+          "literal"
+        ],
+        "variable": [
+          ""
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ],
+    [
+      "P6",
+      {
+        "result": "on(A, T)",
+        "resultClass": "valid",
+        "id": "P6",
+        "name": "on",
+        "nameClass": "valid",
+        "negation": false,
+        "numArgs": "2",
+        "numArgsClass": "valid",
+        "args": [
+          "A",
+          "T"
+        ],
+        "argsClass": [
+          "valid",
+          "valid"
+        ],
+        "kind": [
+          "literal",
+          "literal"
+        ],
+        "literal": [
+          "literal",
+          "literal"
+        ],
+        "variable": [
+          "",
+          ""
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ],
+    [
+      "P7",
+      {
+        "result": "on(B, T)",
+        "resultClass": "valid",
+        "id": "P7",
+        "name": "on",
+        "nameClass": "valid",
+        "negation": false,
+        "numArgs": "2",
+        "numArgsClass": "valid",
+        "args": [
+          "B",
+          "T"
+        ],
+        "argsClass": [
+          "valid",
+          "valid"
+        ],
+        "kind": [
+          "literal",
+          "literal"
+        ],
+        "literal": [
+          "literal",
+          "literal"
+        ],
+        "variable": [
+          "",
+          ""
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ],
+    [
+      "P8",
+      {
+        "result": "on(C, T)",
+        "resultClass": "valid",
+        "id": "P8",
+        "name": "on",
+        "nameClass": "valid",
+        "negation": false,
+        "numArgs": "2",
+        "numArgsClass": "valid",
+        "args": [
+          "C",
+          "T"
+        ],
+        "argsClass": [
+          "valid",
+          "valid"
+        ],
+        "kind": [
+          "literal",
+          "literal"
+        ],
+        "literal": [
+          "literal",
+          "literal"
+        ],
+        "variable": [
+          "",
+          ""
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ],
+    [
+      "P9",
+      {
+        "result": "on(E, T)",
+        "resultClass": "valid",
+        "id": "P9",
+        "name": "on",
+        "nameClass": "valid",
+        "negation": false,
+        "numArgs": "2",
+        "numArgsClass": "valid",
+        "args": [
+          "E",
+          "T"
+        ],
+        "argsClass": [
+          "valid",
+          "valid"
+        ],
+        "kind": [
+          "literal",
+          "literal"
+        ],
+        "literal": [
+          "literal",
+          "literal"
+        ],
+        "variable": [
+          "",
+          ""
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ],
+    [
+      "P10",
+      {
+        "result": "on(D, E)",
+        "resultClass": "valid",
+        "id": "P10",
+        "name": "on",
+        "nameClass": "valid",
+        "negation": false,
+        "numArgs": "2",
+        "numArgsClass": "valid",
+        "args": [
+          "D",
+          "E"
+        ],
+        "argsClass": [
+          "valid",
+          "valid"
+        ],
+        "kind": [
+          "literal",
+          "literal"
+        ],
+        "literal": [
+          "literal",
+          "literal"
+        ],
+        "variable": [
+          "",
+          ""
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ],
+    [
+      "P11",
+      {
+        "result": "on(A, B)",
+        "resultClass": "valid",
+        "id": "P11",
+        "name": "on",
+        "nameClass": "valid",
+        "negation": false,
+        "numArgs": "2",
+        "numArgsClass": "valid",
+        "args": [
+          "A",
+          "B"
+        ],
+        "argsClass": [
+          "valid",
+          "valid"
+        ],
+        "kind": [
+          "literal",
+          "literal"
+        ],
+        "literal": [
+          "literal",
+          "literal"
+        ],
+        "variable": [
+          "",
+          ""
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ],
+    [
+      "P12",
+      {
+        "result": "on(B, C)",
+        "resultClass": "valid",
+        "id": "P12",
+        "name": "on",
+        "nameClass": "valid",
+        "negation": false,
+        "numArgs": "2",
+        "numArgsClass": "valid",
+        "args": [
+          "B",
+          "C"
+        ],
+        "argsClass": [
+          "valid",
+          "valid"
+        ],
+        "kind": [
+          "literal",
+          "literal"
+        ],
+        "literal": [
+          "literal",
+          "literal"
+        ],
+        "variable": [
+          "",
+          ""
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ],
+    [
+      "P13",
+      {
+        "result": "on(A, T)",
+        "resultClass": "valid",
+        "id": "P13",
+        "name": "on",
+        "nameClass": "valid",
+        "negation": true,
+        "numArgs": "2",
+        "numArgsClass": "valid",
+        "args": [
+          "A",
+          "T"
+        ],
+        "argsClass": [
+          "valid",
+          "valid"
+        ],
+        "kind": [
+          "literal",
+          "literal"
+        ],
+        "literal": [
+          "literal",
+          "literal"
+        ],
+        "variable": [
+          "",
+          ""
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ],
+    [
+      "P14",
+      {
+        "result": "c(B)",
+        "resultClass": "valid",
+        "id": "P14",
+        "name": "c",
+        "nameClass": "valid",
+        "negation": true,
+        "numArgs": "1",
+        "numArgsClass": "valid",
+        "args": [
+          "B"
+        ],
+        "argsClass": [
+          "valid"
+        ],
+        "kind": [
+          "literal"
+        ],
+        "literal": [
+          "literal"
+        ],
+        "variable": [
+          ""
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ],
+    [
+      "P15",
+      {
+        "result": "c(C)",
+        "resultClass": "valid",
+        "id": "P15",
+        "name": "c",
+        "nameClass": "valid",
+        "negation": true,
+        "numArgs": "1",
+        "numArgsClass": "valid",
+        "args": [
+          "C"
+        ],
+        "argsClass": [
+          "valid"
+        ],
+        "kind": [
+          "literal"
+        ],
+        "literal": [
+          "literal"
+        ],
+        "variable": [
+          ""
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ],
+    [
+      "P16",
+      {
+        "result": "on(B, T)",
+        "resultClass": "valid",
+        "id": "P16",
+        "name": "on",
+        "nameClass": "valid",
+        "negation": true,
+        "numArgs": "2",
+        "numArgsClass": "valid",
+        "args": [
+          "B",
+          "T"
+        ],
+        "argsClass": [
+          "valid",
+          "valid"
+        ],
+        "kind": [
+          "literal",
+          "literal"
+        ],
+        "literal": [
+          "literal",
+          "literal"
+        ],
+        "variable": [
+          "",
+          ""
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ],
+    [
+      "P17",
+      {
+        "result": "on(D, T)",
+        "resultClass": "valid",
+        "id": "P17",
+        "name": "on",
+        "nameClass": "valid",
+        "negation": false,
+        "numArgs": "2",
+        "numArgsClass": "valid",
+        "args": [
+          "D",
+          "T"
+        ],
+        "argsClass": [
+          "valid",
+          "valid"
+        ],
+        "kind": [
+          "literal",
+          "literal"
+        ],
+        "literal": [
+          "literal",
+          "literal"
+        ],
+        "variable": [
+          "",
+          ""
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ],
+    [
+      "P18",
+      {
+        "result": "on(D, E)",
+        "resultClass": "valid",
+        "id": "P18",
+        "name": "on",
+        "nameClass": "valid",
+        "negation": true,
+        "numArgs": "2",
+        "numArgsClass": "valid",
+        "args": [
+          "D",
+          "E"
+        ],
+        "argsClass": [
+          "valid",
+          "valid"
+        ],
+        "kind": [
+          "literal",
+          "literal"
+        ],
+        "literal": [
+          "literal",
+          "literal"
+        ],
+        "variable": [
+          "",
+          ""
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ],
+    [
+      "P19",
+      {
+        "result": "on(D, z)",
+        "resultClass": "valid",
+        "id": "P19",
+        "name": "on",
+        "nameClass": "valid",
+        "negation": false,
+        "numArgs": "2",
+        "numArgsClass": "valid",
+        "args": [
+          "D",
+          "z"
+        ],
+        "argsClass": [
+          "valid",
+          "valid"
+        ],
+        "kind": [
+          "literal",
+          "variable"
+        ],
+        "literal": [
+          "literal",
+          ""
+        ],
+        "variable": [
+          "",
+          "variable"
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ],
+    [
+      "P20",
+      {
+        "result": "c(z)",
+        "resultClass": "valid",
+        "id": "P20",
+        "name": "c",
+        "nameClass": "valid",
+        "negation": false,
+        "numArgs": "1",
+        "numArgsClass": "valid",
+        "args": [
+          "z"
+        ],
+        "argsClass": [
+          "valid"
+        ],
+        "kind": [
+          "variable"
+        ],
+        "literal": [
+          ""
+        ],
+        "variable": [
+          "variable"
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ],
+    [
+      "P21",
+      {
+        "result": "on(D, z)",
+        "resultClass": "valid",
+        "id": "P21",
+        "name": "on",
+        "nameClass": "valid",
+        "negation": true,
+        "numArgs": "2",
+        "numArgsClass": "valid",
+        "args": [
+          "D",
+          "z"
+        ],
+        "argsClass": [
+          "valid",
+          "valid"
+        ],
+        "kind": [
+          "literal",
+          "variable"
+        ],
+        "literal": [
+          "literal",
+          ""
+        ],
+        "variable": [
+          "",
+          "variable"
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ]
+  ],
+  "actions": [
+    [
+      "A1",
+      {
+        "result": "mv(A, B)",
+        "resultPre": "{c(A), c(B), on(A, T)}",
+        "resultEff": "{!on(A, T), !c(B), on(A, B)}",
+        "id": "A1",
+        "name": "mv",
+        "nameClass": "valid",
+        "priority": "0",
+        "priorityClass": "valid",
+        "numPre": "3",
+        "numPreClass": "valid",
+        "numEff": "3",
+        "numEffClass": "valid",
+        "pre": [
+          "P1",
+          "P2",
+          "P6"
+        ],
+        "preClass": [
+          "valid",
+          "valid",
+          "valid"
+        ],
+        "eff": [
+          "P13",
+          "P14",
+          "P11"
+        ],
+        "effClass": [
+          "valid",
+          "valid",
+          "valid"
+        ],
+        "valid": true,
+        "validStatus": "OK"
+      }
+    ],
+    [
+      "A2",
+      {
+        "result": "mv(B, C)",
+        "resultPre": "{c(B), c(C), on(B, T)}",
+        "resultEff": "{on(B, C), !c(C), !on(B, T)}",
+        "id": "A2",
+        "name": "mv",
+        "nameClass": "valid",
+        "priority": "0",
+        "priorityClass": "valid",
+        "numPre": "3",
+        "numPreClass": "valid",
+        "numEff": "3",
+        "numEffClass": "valid",
+        "pre": [
+          "P2",
+          "P3",
+          "P7"
+        ],
+        "preClass": [
+          "valid",
+          "valid",
+          "valid"
+        ],
+        "eff": [
+          "P12",
+          "P15",
+          "P16"
+        ],
+        "effClass": [
+          "valid",
+          "valid",
+          "valid"
+        ],
+        "valid": true,
+        "validStatus": "OK"
+      }
+    ],
+    [
+      "A3",
+      {
+        "result": "mv(D,T,z)",
+        "resultPre": "{c(D), on(D, z)}",
+        "resultEff": "{on(D, T), c(z), !on(D, z)}",
+        "id": "A3",
+        "name": "mv",
+        "nameClass": "valid",
+        "priority": "0",
+        "priorityClass": "valid",
+        "numPre": "2",
+        "numPreClass": "valid",
+        "numEff": "3",
+        "numEffClass": "valid",
+        "pre": [
+          "P4",
+          "P19"
+        ],
+        "preClass": [
+          "valid",
+          "valid"
+        ],
+        "eff": [
+          "P17",
+          "P20",
+          "P21"
+        ],
+        "effClass": [
+          "valid",
+          "valid",
+          "valid"
+        ],
+        "valid": true,
+        "validStatus": "OK"
+      }
+    ]
+  ],
+  "start": [
+    "P1",
+    "P6",
+    "P8",
+    "P9",
+    "P2",
+    "P3",
+    "P7",
+    "P10",
+    "P4"
+  ],
+  "end": [
+    "P11",
+    "P12",
+    "P17"
+  ]
+}

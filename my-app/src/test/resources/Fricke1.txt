@@ -1,0 +1,14 @@
+
+S0:{on(A,T),c(A),on(C,T),on(E,T),c(B),on(B,T),c(C),on(D,E),c(D)}
+
+ACT: mv(x,T,z)		
+PRE:	x!=T, z!=T, c(x), on(x,z)
+EFF: 	on(x,T), c(z), !on(x,z)
+ACT: mv(x,y)		
+PRE:	x!=T, y!=T, c(x), c(y), on(x,T)
+EFF:	on(x,y),  !c(y), !on(x,T)
+ACT: mv(x,y,z)		
+PRE:	x!=T, y!=T, z!=T, c(x), c(y), on(x,z)
+EFF:	on(x,y), c(z), !c(y), !on(x,z)
+
+Sz:{on(A,B),on(B,C),on(D,T)}

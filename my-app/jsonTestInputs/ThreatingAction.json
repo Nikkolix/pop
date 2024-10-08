@@ -1,0 +1,252 @@
+{
+  "predicates": [
+    [
+      "P1",
+      {
+        "result": "on(A, T)",
+        "resultClass": "valid",
+        "id": "P1",
+        "name": "on",
+        "nameClass": "valid",
+        "negation": false,
+        "numArgs": "2",
+        "numArgsClass": "valid",
+        "args": [
+          "A",
+          "T"
+        ],
+        "argsClass": [
+          "valid",
+          "valid"
+        ],
+        "kind": [
+          "literal",
+          "literal"
+        ],
+        "literal": [
+          "literal",
+          "literal"
+        ],
+        "variable": [
+          "",
+          ""
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ],
+    [
+      "P2",
+      {
+        "result": "on(B, T)",
+        "resultClass": "valid",
+        "id": "P2",
+        "name": "on",
+        "nameClass": "valid",
+        "negation": false,
+        "numArgs": "2",
+        "numArgsClass": "valid",
+        "args": [
+          "B",
+          "T"
+        ],
+        "argsClass": [
+          "valid",
+          "valid"
+        ],
+        "kind": [
+          "literal",
+          "literal"
+        ],
+        "literal": [
+          "literal",
+          "literal"
+        ],
+        "variable": [
+          "",
+          ""
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ],
+    [
+      "P3",
+      {
+        "result": "rotated(A)",
+        "resultClass": "valid",
+        "id": "P3",
+        "name": "rotated",
+        "nameClass": "valid",
+        "negation": false,
+        "numArgs": "1",
+        "numArgsClass": "valid",
+        "args": [
+          "A"
+        ],
+        "argsClass": [
+          "valid"
+        ],
+        "kind": [
+          "literal"
+        ],
+        "literal": [
+          "literal"
+        ],
+        "variable": [
+          ""
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ],
+    [
+      "P4",
+      {
+        "result": "on(B, A)",
+        "resultClass": "valid",
+        "id": "P4",
+        "name": "on",
+        "nameClass": "valid",
+        "negation": false,
+        "numArgs": "2",
+        "numArgsClass": "valid",
+        "args": [
+          "B",
+          "A"
+        ],
+        "argsClass": [
+          "valid",
+          "valid"
+        ],
+        "kind": [
+          "literal",
+          "literal"
+        ],
+        "literal": [
+          "literal",
+          "literal"
+        ],
+        "variable": [
+          "",
+          ""
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ],
+    [
+      "P5",
+      {
+        "result": "¬on(B, T)",
+        "resultClass": "valid",
+        "id": "P5",
+        "name": "on",
+        "nameClass": "valid",
+        "negation": true,
+        "numArgs": "2",
+        "numArgsClass": "valid",
+        "args": [
+          "B",
+          "T"
+        ],
+        "argsClass": [
+          "valid",
+          "valid"
+        ],
+        "kind": [
+          "literal",
+          "literal"
+        ],
+        "literal": [
+          "literal",
+          "literal"
+        ],
+        "variable": [
+          "",
+          ""
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ]
+  ],
+  "actions": [
+    [
+      "A1",
+      {
+        "result": "rotate()",
+        "resultPre": "{on(A, T), on(B, T)}",
+        "resultEff": "{rotated(A)}",
+        "id": "A1",
+        "name": "rotate",
+        "nameClass": "valid",
+        "priority": "0",
+        "priorityClass": "valid",
+        "numPre": "2",
+        "numPreClass": "valid",
+        "numEff": "1",
+        "numEffClass": "valid",
+        "pre": [
+          "P1",
+          "P2"
+        ],
+        "preClass": [
+          "valid",
+          "valid"
+        ],
+        "eff": [
+          "P3"
+        ],
+        "effClass": [
+          "valid"
+        ],
+        "valid": true,
+        "validStatus": "OK"
+      }
+    ],
+    [
+      "A2",
+      {
+        "result": "stack()",
+        "resultPre": "{on(A, T), on(B, T)}",
+        "resultEff": "{on(B, A), ¬on(B, T)}",
+        "id": "A2",
+        "name": "stack",
+        "nameClass": "valid",
+        "priority": "0",
+        "priorityClass": "valid",
+        "numPre": "2",
+        "numPreClass": "valid",
+        "numEff": "2",
+        "numEffClass": "valid",
+        "pre": [
+          "P1",
+          "P2"
+        ],
+        "preClass": [
+          "valid",
+          "valid"
+        ],
+        "eff": [
+          "P4",
+          "P5"
+        ],
+        "effClass": [
+          "valid",
+          "valid"
+        ],
+        "valid": true,
+        "validStatus": "OK"
+      }
+    ]
+  ],
+  "start": [
+    "P1",
+    "P2"
+  ],
+  "end": [
+    "P4",
+    "P3"
+  ]
+}

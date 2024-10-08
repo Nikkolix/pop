@@ -1,0 +1,188 @@
+{
+  "predicates": [
+    [
+      "P1",
+      {
+        "result": "on(B, A)",
+        "resultClass": "valid",
+        "id": "P1",
+        "name": "on",
+        "nameClass": "valid",
+        "negation": false,
+        "numArgs": "2",
+        "numArgsClass": "valid",
+        "args": [
+          "B",
+          "A"
+        ],
+        "argsClass": [
+          "valid",
+          "valid"
+        ],
+        "kind": [
+          "literal",
+          "literal"
+        ],
+        "literal": [
+          "literal",
+          "literal"
+        ],
+        "variable": [
+          "",
+          ""
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ],
+    [
+      "P2",
+      {
+        "result": "on(A, T)",
+        "resultClass": "valid",
+        "id": "P2",
+        "name": "on",
+        "nameClass": "valid",
+        "negation": false,
+        "numArgs": "2",
+        "numArgsClass": "valid",
+        "args": [
+          "A",
+          "T"
+        ],
+        "argsClass": [
+          "valid",
+          "valid"
+        ],
+        "kind": [
+          "literal",
+          "literal"
+        ],
+        "literal": [
+          "literal",
+          "literal"
+        ],
+        "variable": [
+          "",
+          ""
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ],
+    [
+      "P3",
+      {
+        "result": "on(B, T)",
+        "resultClass": "valid",
+        "id": "P3",
+        "name": "on",
+        "nameClass": "valid",
+        "negation": false,
+        "numArgs": "2",
+        "numArgsClass": "valid",
+        "args": [
+          "B",
+          "T"
+        ],
+        "argsClass": [
+          "valid",
+          "valid"
+        ],
+        "kind": [
+          "literal",
+          "literal"
+        ],
+        "literal": [
+          "literal",
+          "literal"
+        ],
+        "variable": [
+          "",
+          ""
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ],
+    [
+      "P4",
+      {
+        "result": "¬on(B, T)",
+        "resultClass": "valid",
+        "id": "P4",
+        "name": "on",
+        "nameClass": "valid",
+        "negation": true,
+        "numArgs": "2",
+        "numArgsClass": "valid",
+        "args": [
+          "B",
+          "T"
+        ],
+        "argsClass": [
+          "valid",
+          "valid"
+        ],
+        "kind": [
+          "literal",
+          "literal"
+        ],
+        "literal": [
+          "literal",
+          "literal"
+        ],
+        "variable": [
+          "",
+          ""
+        ],
+        "valid": true,
+        "validStatus": ""
+      }
+    ]
+  ],
+  "actions": [
+    [
+      "A1",
+      {
+        "result": "stack()",
+        "resultPre": "{on(B, A), on(A, T)}",
+        "resultEff": "{on(B, A), ¬on(B, T)}",
+        "id": "A1",
+        "name": "stack",
+        "nameClass": "valid",
+        "priority": "0",
+        "priorityClass": "valid",
+        "numPre": "2",
+        "numPreClass": "valid",
+        "numEff": "2",
+        "numEffClass": "valid",
+        "pre": [
+          "P1",
+          "P2"
+        ],
+        "preClass": [
+          "valid",
+          "valid"
+        ],
+        "eff": [
+          "P1",
+          "P4"
+        ],
+        "effClass": [
+          "valid",
+          "valid"
+        ],
+        "valid": true,
+        "validStatus": "OK"
+      }
+    ]
+  ],
+  "start": [
+    "P2",
+    "P3"
+  ],
+  "end": [
+    "P1"
+  ]
+}
